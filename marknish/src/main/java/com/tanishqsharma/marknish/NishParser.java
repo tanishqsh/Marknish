@@ -3,7 +3,6 @@ package com.tanishqsharma.marknish;
 import android.content.Context;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,9 +43,6 @@ public class NishParser {
     private List<String> bullet;
     private List<String> paragraph;
 
-    /* START TODO: Remove This
-     * Temporary Elements to be deleted in the production version
-     */
 
     private boolean contentCollection = false;
 
@@ -78,18 +74,13 @@ public class NishParser {
 
     public LinearLayout ReturnView(String unformattedString){
 
-        /*
-        TODO: Remove This Example String and make it use the unformattedString
-         */
-
         Parser(unformattedString);
         return mainView;
     }
 
     private void Parser(String tobeParsed){
 
-
-        /* TODO: use better comments here
+        /*
         The parser needs to go through the tobeParsed string completely atleast once.
          */
 
@@ -128,8 +119,6 @@ public class NishParser {
     private int ElementDecider(String tempTag, int posInString, String tobeParsed){
 
         int currentI = posInString;
-        Toast.makeText(mContext, "Temp Tag: "+tempTag, Toast.LENGTH_SHORT).show();
-
 
         switch (tempTag){
             case "<n_heading>":
