@@ -1,4 +1,4 @@
-# Marknish [![Release](https://jitpack.io/v/tanishqsh/marknish.svg)](https://jitpack.io/#tanishqsh/marknish/v1.0)
+# Marknish [![Release](https://jitpack.io/v/tanishqsh/marknish.svg)](https://jitpack.io/#tanishqsh/marknish)
 Markup language for Android Rendering Common Elements
 
 # Download
