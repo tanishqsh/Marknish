@@ -16,7 +16,7 @@ Add the dependency to your add module `build.gradle` file:
 
 ```
 	dependencies {
-	        compile 'com.github.tanishqsh:marknish:v1.1'
+	        compile 'com.github.tanishqsh:marknish:v1.2'
 	}
 
 
