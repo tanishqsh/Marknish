@@ -22,7 +22,7 @@ import java.util.List;
  * the calling class.
  */
 
-class NishParser {
+public class NishParser {
 
     /**
      @params
