@@ -13,7 +13,7 @@ import java.net.URL;
  * Created by Hemant on 11/9/2017.
  */
 
-public class ImageLoader extends AsyncTask<String, Void, Bitmap> {
+class ImageLoader extends AsyncTask<String, Void, Bitmap> {
 
     private static final String TAG = "ImageLoader";
     private ImageView imageView;
