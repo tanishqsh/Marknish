@@ -5,6 +5,8 @@ import android.content.Context;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.tanishqsharma.marknish.helper.ImageLoader;
+
 
 @SuppressLint("ViewConstructor")
 public class n_image extends android.support.v7.widget.AppCompatImageView {

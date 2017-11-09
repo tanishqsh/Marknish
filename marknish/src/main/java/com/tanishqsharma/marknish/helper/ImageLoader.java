@@ -1,4 +1,4 @@
-package com.tanishqsharma.marknish;
+package com.tanishqsharma.marknish.helper;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
