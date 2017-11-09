@@ -17,14 +17,14 @@ public class n_paragraph extends android.support.v7.widget.AppCompatTextView{
 
     public n_paragraph(Context context, String text) {
         super(context);
-        Typeface poppins_reg = Typeface.createFromAsset(context.getResources().getAssets(), "font/preg.ttf");
+        //Typeface poppins_reg = Typeface.createFromAsset(context.getResources().getAssets(), "font/preg.ttf");
         int padding = 20;
         this.setTextColor(Color.parseColor("#383838"));
         this.setGravity(Gravity.CENTER_VERTICAL);
         this.setPadding(padding, padding, padding, padding);
         this.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         this.setTextSize(18);
-        this.setTypeface(poppins_reg);
+        //this.setTypeface(poppins_reg);
         this.setText(text);
     }
 }
