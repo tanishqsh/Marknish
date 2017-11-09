@@ -55,7 +55,7 @@ class NishParser {
      * Temporary Elements to be deleted in the production version
      */
 
-    NishParser(Context context) {
+    public NishParser(Context context) {
         mContext = context;
         mainView = new LinearLayout(context);
         initializeLists();
@@ -76,7 +76,7 @@ class NishParser {
         mainView.setOrientation(LinearLayout.VERTICAL);
     }
 
-    LinearLayout ReturnView(String unformattedString){
+    public LinearLayout ReturnView(String unformattedString){
 
         /*
         TODO: Remove This Example String and make it use the unformattedString
