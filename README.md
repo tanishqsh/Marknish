@@ -23,7 +23,7 @@ Add the dependency to your add module `build.gradle` file:
 ```
 # Usage
 
- Check [[Wiki](https://github.com/tanishqsh/Marknish/wiki)]
+ Check [Wiki](https://github.com/tanishqsh/Marknish/wiki)
 
 # License
 Check [License](https://github.com/tanishqsh/Marknish/blob/master/LICENSE)
