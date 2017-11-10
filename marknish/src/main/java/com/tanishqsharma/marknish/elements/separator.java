@@ -1,4 +1,4 @@
-package com.tanishqsharma.marknish;
+package com.tanishqsharma.marknish.elements;
 
 import android.content.Context;
 import android.graphics.Color;

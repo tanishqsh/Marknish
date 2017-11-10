@@ -1,4 +1,6 @@
-package com.tanishqsharma.marknish;
+package com.tanishqsharma.marknish.elements;
+
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Color;
 import android.view.Gravity;
@@ -6,15 +8,13 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 /**
- * Returns the bullet element
+ * Returns the paragraph element
  */
 
-public class n_bullet extends android.support.v7.widget.AppCompatTextView{
+@SuppressLint("ViewConstructor")
+public class n_paragraph extends android.support.v7.widget.AppCompatTextView{
 
-    String bullet = "\u2022";
-
-
-    public n_bullet(Context context, String text) {
+    public n_paragraph(Context context, String text) {
         super(context);
         int padding = 20;
         this.setTextColor(Color.parseColor("#383838"));
@@ -22,6 +22,6 @@ public class n_bullet extends android.support.v7.widget.AppCompatTextView{
         this.setPadding(padding, padding, padding, padding);
         this.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         this.setTextSize(18);
-        this.setText(bullet.concat(text));
+        this.setText(text);
     }
 }
