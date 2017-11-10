@@ -2,9 +2,9 @@ package com.tanishqsharma.marknish;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.view.Gravity;
+import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.Toast;
-
 import com.tanishqsharma.marknish.helper.ImageLoader;
 
 
@@ -13,8 +13,14 @@ public class n_image extends android.support.v7.widget.AppCompatImageView {
 
     public n_image(Context context, String url) {
         super(context);
-        this.setLayoutParams(new LinearLayout.LayoutParams(1000, 1000));
-        Toast.makeText(context, "" + url, Toast.LENGTH_SHORT).show();
+        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+
+        /*
+        Making sure the image is in the center
+         */
+
+        layoutParams.gravity = Gravity.CENTER_HORIZONTAL;
+        this.setLayoutParams(layoutParams);
         new ImageLoader(this).execute(url);
 
     }

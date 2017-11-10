@@ -195,7 +195,6 @@ public class NishParser {
                         Create a paragraph_textview and add it to the mainView
                          */
                         mainView.addView(new n_paragraph(mContext, para_temp));
-                        mainView.addView(new separator(mContext));
 
                         para_temp = ""; //reinitialized
 
