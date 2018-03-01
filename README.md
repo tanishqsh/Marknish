@@ -1,5 +1,5 @@
 # Marknish [![Release](https://jitpack.io/v/tanishqsh/marknish.svg)](https://jitpack.io/#tanishqsh/marknish)
-Markup language for Android Rendering Common Elements
+No more support! Markup language for Android Rendering Common Elements
 
 # Download
 Add it in your root `build.gradle` at the end of repositories:
